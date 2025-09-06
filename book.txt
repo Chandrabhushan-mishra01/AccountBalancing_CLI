@@ -1,0 +1,10 @@
+USERS 3
+pooja
+aditya
+mohit
+EXPENSES 1
+PAYER mohit AMT 120.00
+SHARES 3
+aditya 40.00
+mohit 40.00
+pooja 40.00
