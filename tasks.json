@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build splitwise",
+      "type": "shell",
+      "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",   // use your MSYS2 g++
+      "args": [
+        "-std=c++17",         // or c++11 if you use the C++11 version
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "src/main.cpp",
+        "-o",
+        "build/splitwise.exe" // <— OUTPUT NAME
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "options": { "cwd": "${workspaceFolder}" }
+    }
+  ]
+}
